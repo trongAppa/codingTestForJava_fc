@@ -6,10 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj1919",
+            "request": "launch",
+            "mainClass": "boj1919",
+            "projectName": "codingTestForJava_fc_3fa6d722"
+        },
+        {
+            "type": "java",
             "name": "boj2744",
             "request": "launch",
             "mainClass": "boj2744",
-            "console": "internalConsole",
             "projectName": "codingTestForJava_fc_3fa6d722"
         },
         {
