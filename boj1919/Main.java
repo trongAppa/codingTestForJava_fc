@@ -1,6 +1,8 @@
+package boj1919;
 import java.util.Scanner;
 
-public class boj1919 {
+// https://www.acmicpc.net/problem/1919
+public class Main {
     public static int[] getAlphaCnt(String str) {
         int[] cnt = new int[26];
 
@@ -12,6 +14,7 @@ public class boj1919 {
     }
 
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
         String b = sc.next();

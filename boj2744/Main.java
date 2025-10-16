@@ -1,9 +1,13 @@
+package boj2744;
+
 import java.util.Scanner;
 
-public class boj2744 {
+// https://www.acmicpc.net/problem/2744
+public class Main {
     public static void main(String[] args) {
         // ASCII CODE를 사용하여 해결
         System.out.print("입력하세요");
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         for(int i=0; i<str.length(); i++) {
